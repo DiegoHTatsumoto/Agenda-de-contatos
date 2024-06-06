@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contato</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="navegar">
+            <h1><img src="./imagens/telephone-and-mobile-phone-icon-calling-icon-transparent-background-free-png.webp" alt="">Agencia de Contatos</h1>
+            <nav>
+                <ul>
+                    <li><a href="#texto">Objetivo</a></li>
+                    <li><a href="#second">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="conjunto">
+        <div class="container">
+            <h2>Agenda de Contato</h2>
+            <form id="formulario">
+                <input type="text" required name="nome" id="nomeDeContato" placeholder="Nome do contato">
+                <input type="tel" required name="numero" id="numeroDeContato" placeholder="Número de celular">
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <div class="texto" id="texto">
+            <h2>Objetivo do Projeto</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae suscipit accusamus eum, sequi natus distinctio rerum in, necessitatibus autem, atque quisquam aliquid sapiente? Non odio ipsa dignissimos cum repellat tempore.</p>
+        </div>
+    </div>
+    <div class="secundaria" id="second">
+        <table>
+            <thead>
+                <tr>
+                    <th>Contato</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Total de contatos: <span id="total-contatos">0</span></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <footer>&copy; Todos os direitos reservados para a empresa do Github</footer>
+    <script src="./main.js"></script>
+</body>
+</html>
